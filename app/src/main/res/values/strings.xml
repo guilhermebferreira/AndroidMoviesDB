@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidMoviesBase</string>
+    <string name="title_filme_detail">Filme Detail</string>
+</resources>
