@@ -65,12 +65,15 @@ public class FilmeDAO extends SQLiteOpenHelper {
                 + NOME + "text,"
                 + ")";
 
+
+        db.execSQL(sql);
+
         String insert_acao = "INSERT INTO" + TABELA_GENERO + "VALUES(1, 'Ação')";
         String insert_suspense = "INSERT INTO" + TABELA_GENERO + "VALUES(2, 'Suspense')";
         String insert_romance = "INSERT INTO" + TABELA_GENERO + "VALUES(3, 'Romance')";
         String insert_terror = "INSERT INTO" + TABELA_GENERO + "VALUES(4, 'Terror')";
         String insert_ficcao = "INSERT INTO" + TABELA_GENERO + "VALUES(5, 'Ficção Científica')";
-        db.execSQL(sql);
+
         db.execSQL(insert_acao);
         db.execSQL(insert_suspense);
         db.execSQL(insert_romance);
