@@ -1,4 +1,4 @@
-package bean;
+package guilherme.androidmoviesbase.model;
 
 /**
  * Created by guilherme on 26/04/17.
